@@ -370,6 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e493938de3d14c34eb0d6468ecf06a8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  webcamInputFlag: 1
 --- !u!1001 &29246066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1260,6 +1261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e493938de3d14c34eb0d6468ecf06a8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  webcamInputFlag: 1
 --- !u!1001 &127419266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10276,7 +10278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rawImage: {fileID: 478176786}
-  thresholdCrosses: {fileID: 6529557144993506808, guid: 27a0fd39ef85ed04bb3be107b39d88af, type: 3}
+  thresholdCrosses: {fileID: 0}
 --- !u!114 &478176786
 MonoBehaviour:
   m_ObjectHideFlags: 0
