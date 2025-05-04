@@ -31,10 +31,16 @@ public class MenuManager : MonoBehaviour
 
     private void Awake()
     {
-        Screen.fullScreen = fullScreenToggle.isOn = PlayerPrefs.GetInt("IsFullScreen", 0) == 1;
+        Screen.fullScreen = PlayerPrefs.GetInt("IsFullScreen", 0) == 1;
+        if (fullScreenToggle)
+        {
+            fullScreenToggle.isOn = Screen.fullScreen;
+        }
         var isLock = PlayerPrefs.GetInt("IsScreenLock", 0) == 1;
-
-        screenLockToggle.isOn = isLock;
+        if (screenLockToggle)
+        {
+            screenLockToggle.isOn = isLock;
+        }
         SetResizable(isLock);
     }
 
@@ -100,8 +106,8 @@ public class MenuManager : MonoBehaviour
                 togglers.Add(obj);
             }
         }
-
-        mushroomModeToggle.isOn = PlayerPrefs.GetInt("IsMushroomModeDark", 1) == 1;
+        if (mushroomModeToggle)
+            mushroomModeToggle.isOn = PlayerPrefs.GetInt("IsMushroomModeDark", 1) == 1;
     }
 
     public void MushroomSceneToggleTap(bool val)
