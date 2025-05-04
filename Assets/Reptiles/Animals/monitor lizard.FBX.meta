@@ -1,0 +1,579 @@
+fileFormatVersion: 2
+guid: d45844387c75d994a870c39f30748e5a
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: calf left
+  - first:
+      1: 100002
+    second: calf right
+  - first:
+      1: 100004
+    second: finger left
+  - first:
+      1: 100006
+    second: finger right
+  - first:
+      1: 100008
+    second: foot left
+  - first:
+      1: 100010
+    second: foot right
+  - first:
+      1: 100012
+    second: forearm left
+  - first:
+      1: 100014
+    second: forearm right
+  - first:
+      1: 100016
+    second: hand left
+  - first:
+      1: 100018
+    second: hand right
+  - first:
+      1: 100020
+    second: head
+  - first:
+      1: 100022
+    second: hip left
+  - first:
+      1: 100024
+    second: hip right
+  - first:
+      1: 100026
+    second: jaw
+  - first:
+      1: 100028
+    second: //RootNode
+  - first:
+      1: 100030
+    second: monitor_LOD0
+  - first:
+      1: 100032
+    second: monitor_LOD1
+  - first:
+      1: 100034
+    second: neck 1
+  - first:
+      1: 100036
+    second: neck 2
+  - first:
+      1: 100038
+    second: shoulder left
+  - first:
+      1: 100040
+    second: shoulder right
+  - first:
+      1: 100042
+    second: spine 1
+  - first:
+      1: 100044
+    second: spine 2
+  - first:
+      1: 100046
+    second: spine 3
+  - first:
+      1: 100048
+    second: spine 4
+  - first:
+      1: 100050
+    second: spine 5
+  - first:
+      1: 100052
+    second: spine 6
+  - first:
+      1: 100054
+    second: spine 7
+  - first:
+      1: 100056
+    second: tail 1
+  - first:
+      1: 100058
+    second: tail 10
+  - first:
+      1: 100060
+    second: tail 11
+  - first:
+      1: 100062
+    second: tail 12
+  - first:
+      1: 100064
+    second: tail 13
+  - first:
+      1: 100066
+    second: tail 14
+  - first:
+      1: 100068
+    second: tail 15
+  - first:
+      1: 100070
+    second: tail 2
+  - first:
+      1: 100072
+    second: tail 3
+  - first:
+      1: 100074
+    second: tail 4
+  - first:
+      1: 100076
+    second: tail 5
+  - first:
+      1: 100078
+    second: tail 6
+  - first:
+      1: 100080
+    second: tail 7
+  - first:
+      1: 100082
+    second: tail 8
+  - first:
+      1: 100084
+    second: tail 9
+  - first:
+      1: 100086
+    second: thigh left
+  - first:
+      1: 100088
+    second: thigh right
+  - first:
+      1: 100090
+    second: toe left
+  - first:
+      1: 100092
+    second: toe right
+  - first:
+      1: 100094
+    second: upper arm left
+  - first:
+      1: 100096
+    second: upper arm right
+  - first:
+      4: 400000
+    second: calf left
+  - first:
+      4: 400002
+    second: calf right
+  - first:
+      4: 400004
+    second: finger left
+  - first:
+      4: 400006
+    second: finger right
+  - first:
+      4: 400008
+    second: foot left
+  - first:
+      4: 400010
+    second: foot right
+  - first:
+      4: 400012
+    second: forearm left
+  - first:
+      4: 400014
+    second: forearm right
+  - first:
+      4: 400016
+    second: hand left
+  - first:
+      4: 400018
+    second: hand right
+  - first:
+      4: 400020
+    second: head
+  - first:
+      4: 400022
+    second: hip left
+  - first:
+      4: 400024
+    second: hip right
+  - first:
+      4: 400026
+    second: jaw
+  - first:
+      4: 400028
+    second: //RootNode
+  - first:
+      4: 400030
+    second: monitor_LOD0
+  - first:
+      4: 400032
+    second: monitor_LOD1
+  - first:
+      4: 400034
+    second: neck 1
+  - first:
+      4: 400036
+    second: neck 2
+  - first:
+      4: 400038
+    second: shoulder left
+  - first:
+      4: 400040
+    second: shoulder right
+  - first:
+      4: 400042
+    second: spine 1
+  - first:
+      4: 400044
+    second: spine 2
+  - first:
+      4: 400046
+    second: spine 3
+  - first:
+      4: 400048
+    second: spine 4
+  - first:
+      4: 400050
+    second: spine 5
+  - first:
+      4: 400052
+    second: spine 6
+  - first:
+      4: 400054
+    second: spine 7
+  - first:
+      4: 400056
+    second: tail 1
+  - first:
+      4: 400058
+    second: tail 10
+  - first:
+      4: 400060
+    second: tail 11
+  - first:
+      4: 400062
+    second: tail 12
+  - first:
+      4: 400064
+    second: tail 13
+  - first:
+      4: 400066
+    second: tail 14
+  - first:
+      4: 400068
+    second: tail 15
+  - first:
+      4: 400070
+    second: tail 2
+  - first:
+      4: 400072
+    second: tail 3
+  - first:
+      4: 400074
+    second: tail 4
+  - first:
+      4: 400076
+    second: tail 5
+  - first:
+      4: 400078
+    second: tail 6
+  - first:
+      4: 400080
+    second: tail 7
+  - first:
+      4: 400082
+    second: tail 8
+  - first:
+      4: 400084
+    second: tail 9
+  - first:
+      4: 400086
+    second: thigh left
+  - first:
+      4: 400088
+    second: thigh right
+  - first:
+      4: 400090
+    second: toe left
+  - first:
+      4: 400092
+    second: toe right
+  - first:
+      4: 400094
+    second: upper arm left
+  - first:
+      4: 400096
+    second: upper arm right
+  - first:
+      21: 2100000
+    second: 01 - Default
+  - first:
+      43: 4300000
+    second: monitor_LOD0
+  - first:
+      43: 4300002
+    second: monitor_LOD1
+  - first:
+      74: 7400000
+    second: move
+  - first:
+      74: 7400002
+    second: defensive
+  - first:
+      74: 7400004
+    second: attack 1
+  - first:
+      74: 7400006
+    second: attack 2
+  - first:
+      74: 7400008
+    second: death
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: monitor_LOD0
+  - first:
+      137: 13700002
+    second: monitor_LOD1
+  - first:
+      205: 20500000
+    second: //RootNode
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: move
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: defensive
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 51
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack 1
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 101
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack 2
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 130
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 160
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

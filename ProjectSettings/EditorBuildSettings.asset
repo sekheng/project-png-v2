@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: ee2d6ea4bf3574047948c8beb80e35b0
+  - enabled: 1
+    path: Assets/Scenes/Butterfly.unity
+    guid: 6a024c0352017074ba1b51f64d06eb52
+  - enabled: 1
+    path: Assets/Scenes/Insects.unity
+    guid: 559e87302b2456c45a535b821ec86a3d
+  - enabled: 1
+    path: Assets/Scenes/Safari.unity
+    guid: 50d1ce7eb9a6a394dacfd22c3aca51a7
+  - enabled: 1
+    path: Assets/Scenes/Reptile.unity
+    guid: 4361b3c1f64ab5f4e864533c10c12c7f
+  - enabled: 1
+    path: Assets/Scenes/Arctic.unity
+    guid: a4ff04929901e21459ed434f6985fcd2
+  - enabled: 1
+    path: Assets/Scenes/Aquarium.unity
+    guid: 77f0ab21a5fff9941ab194b02f58335a
+  - enabled: 1
+    path: Assets/Scenes/Farm.unity
+    guid: c06fdfe84e3a1ff40bff14a6582ab5f5
+  - enabled: 1
+    path: Assets/Scenes/TestEffect.unity
+    guid: bb5f562659f008b459c74f30b8b538e4
+  - enabled: 1
+    path: Assets/Scenes/CalibrationScene.unity
+    guid: c88497a16c7caf64293a96c9cd2a8396
+  - enabled: 1
+    path: Assets/Scenes/Bubbles.unity
+    guid: af9bd464b1a50044bb64be35096e2087
+  - enabled: 1
+    path: Assets/Scenes/Mushrooms.unity
+    guid: 7d3e4cac6c3a3c649b7955301dd0d1ea
+  - enabled: 1
+    path: Assets/Scenes/Garden.unity
+    guid: 18d895d6ebc54b043a57a8f1221334d9
+  m_configObjects: {}

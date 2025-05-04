@@ -1,0 +1,99 @@
+
+                                                   _INSECT PACK V2 LOW POLY_ 
+
+
+this pack contains 6 animated Insect:
+
+
+ Models include : Single Texture and Models Texture Atlas Format:
+
+1-Wasp/Animation 8-textureAtlas -Color-2 
+1-LadyBug/Animation 7- textureAtlas Color2
+1-Dragonfly/Animation 7-textureAtlas Color2
+1-Butterlfy/Animation 10 -textureAtlas Color2
+1-Fly/Animation 7-textureAtlas Color2
+1-Cockroach/Animation 5-textureAtlas Color 2
+
+Single Texture 2 Color 
+Single Normal Map
+TextureAtlas 2 Png
+Normal Map Include 1 Png.
+
+
+
+
+Formats Models Only:
+fbx
+
+
+                                          ----       Unity3D Import   ------
+
+pack created unity 2019
+ Version 2019.2.5f1
+
+import package  _INSECT PACK V2 LOW POLY_   in the unity 
+
+
+
+
+Prefab Models:
+All models are already ready for use in practical prefab already generated and ready for you you just place them in the scene.
+
+
+optimizations:
+
+1-Models Lowpoly saving on quantities of polygons
+2-Skeleton:
+Using a few bones but that guarantee a realistic movement necessary in order to ease the calculation.
+3-Animations
+Using short animations, big impact, Savings Calculation.
+4-TextureAtlas:
+Including homestyle considerable savings calculation.
+
+
+
+
+
+Ps important:
+it is possible that many models generally understood you present a notice in the console:
+ImportFBX Warnings:
+Can not import tangents and binormals, Because mesh.
+It frequently happens that Unity3D present this message because of particular exports and good to note that this does not mean that the model and compromise.
+proceed in this way:
+the item Model / Normals and Tangents.
+Normals:
+Calculate
+
+Smooting angle = 180
+Tangents
+Calculate Legacy
+Apply
+
+
+Very low FPS, to increase FPS calculation :
+it is possible to resize compress  textures ,to obtain a higher value  of fps:
+select single image ,inspector pannel:
+ ,Max size 8192,  resize and change  4096 or 2048 or lower
+the lower the compression the higher the FPS will rise
+
+
+
+
+this pack compatible Only legacy not compatible with other 	
+typology of animations
+however, you can try to convert legacy to try the following:
+                                          
+ First you Ctrl-D to duplicate each animation and then click each animation copy you made and go to debug mode
+ in the inspector and uncheck legacy mode. Then you click on the parent of each models and where it says animation
+ type in the inspector you choose generic and click apply. 
+
+                                                
+
+
+                                          
+
+
+
+
+
+This package is created by VintageSoft
