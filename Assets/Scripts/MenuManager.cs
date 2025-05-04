@@ -74,19 +74,19 @@ public class MenuManager : MonoBehaviour
 
     public void SetResizable(bool resizable)
     {
-        IntPtr windowHandle = GetActiveWindow();
-        int style = GetWindowLong(windowHandle, GWL_STYLE);
+        //IntPtr windowHandle = GetActiveWindow();
+        //int style = GetWindowLong(windowHandle, GWL_STYLE);
 
-        if (resizable)
-        {
-            style |= WS_SIZEBOX | WS_MAXIMIZEBOX;
-        }
-        else
-        {
-            style &= ~(WS_SIZEBOX | WS_MAXIMIZEBOX);
-        }
+        //if (resizable)
+        //{
+        //    style |= WS_SIZEBOX | WS_MAXIMIZEBOX;
+        //}
+        //else
+        //{
+        //    style &= ~(WS_SIZEBOX | WS_MAXIMIZEBOX);
+        //}
 
-        SetWindowLong(windowHandle, GWL_STYLE, style);
+        //SetWindowLong(windowHandle, GWL_STYLE, style);
     }
 #endif
 
