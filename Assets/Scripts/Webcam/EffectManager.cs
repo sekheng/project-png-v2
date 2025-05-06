@@ -75,7 +75,7 @@ public class EffectManager : MonoBehaviour {
         webcamInputFlag = _setInput;
     }
 
-    protected void Update()
+    protected virtual void Update()
     {
         if (webcamInputFlag)
             ProcessInput(true);

@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 197429713}
   - component: {fileID: 197429712}
   - component: {fileID: 197429711}
+  - component: {fileID: 197429714}
   m_Layer: 5
   m_Name: webcam image
   m_TagString: Untagged
@@ -174,7 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rawImage: {fileID: 197429712}
-  thresholdCrosses: {fileID: 1978372485}
+  thresholdCrosses: {fileID: 0}
 --- !u!114 &197429712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,6 +211,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197429709}
   m_CullTransparentMesh: 1
+--- !u!114 &197429714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197429709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf2f65e98003aa4fb6551891b1a31dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  webcamInputFlag: 1
+  calibrationCrossPrefab: {fileID: 6529557144993506809, guid: 27a0fd39ef85ed04bb3be107b39d88af, type: 3}
+  crossesParent: {fileID: 1978372485}
 --- !u!1 &352676329
 GameObject:
   m_ObjectHideFlags: 0
