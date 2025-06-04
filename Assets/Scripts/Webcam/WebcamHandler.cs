@@ -75,6 +75,11 @@ public class WebcamHandler : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+        if (DisableWebcam.DISABLE_WEBCAM_FLAG)
+        {
+            Destroy(gameObject);
+            return;
+        }
         webcamDeviceName = PlayerPrefs.GetString(WebcamDropdown.CONST_WEBCAMNAME);
         minWidth = 0;
         maxWidth = 160;

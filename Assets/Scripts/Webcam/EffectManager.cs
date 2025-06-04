@@ -46,7 +46,7 @@ public class EffectManager : MonoBehaviour {
         //else
         //HandlePoint(Input.mousePosition);   // Handle mouse position
 
-        if (WebcamHandler.instance.IsWebcamActive())
+        if (!DisableWebcam.DISABLE_WEBCAM_FLAG && WebcamHandler.instance.IsWebcamActive())
         {
             foreach (Point point in WebcamInputReceiver.instance.GetCrossesList())
             {

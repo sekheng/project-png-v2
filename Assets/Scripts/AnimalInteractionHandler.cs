@@ -27,15 +27,17 @@ public UnityEvent clickEvent;
         cursorPosY = 0;
     }
 
-    //public void OnMouseEnter()
-    //{
-        //if (pauseTouch) return;
-        //if (Interact())
-        //{
-        //SetCursorPos(cursorPosX, cursorPosY);//Call this to set the mouse position
-        //    SetCursorPos(0, Screen.height);//Call this to set the mouse position to the bottom-left of screen
-        //}
-    //}
+    public void OnMouseEnter()
+    {
+        if (!DisableWebcam.DISABLE_WEBCAM_FLAG)
+            return;
+        if (pauseTouch) return;
+        if (Interact())
+        {
+            SetCursorPos(cursorPosX, cursorPosY);//Call this to set the mouse position
+            SetCursorPos(0, Screen.height);//Call this to set the mouse position to the bottom-left of screen
+        }
+    }
 
     public virtual bool Interact()
     {

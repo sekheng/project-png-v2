@@ -31,6 +31,10 @@ public class WebcamTextureImage : MonoBehaviour {
             instance = this;
         else
             Destroy(this);
+        if (DisableWebcam.DISABLE_WEBCAM_FLAG)
+        {
+            Destroy(this);
+        }
     }
 
     private void OnDestroy()

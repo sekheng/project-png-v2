@@ -43,13 +43,15 @@ public class TouchHandler : MonoBehaviour
         }
     }
 
-    //public void OnMouseEnter()
-    //{
-        //if (Interact())
-        //{
-        //    SetCursorPos(cursorPosX, cursorPosY);//Call this to set the mouse position
-        //}
-    //}
+    public void OnMouseEnter()
+    {
+        if (DisableWebcam.DISABLE_WEBCAM_FLAG)
+            return;
+        if (Interact())
+        {
+            SetCursorPos(cursorPosX, cursorPosY);//Call this to set the mouse position
+        }
+    }
 
     public virtual bool Interact()
     {
