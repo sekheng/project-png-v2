@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -162,7 +161,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -227,238 +226,7 @@ MonoBehaviour:
   onComplete:
     m_PersistentCalls:
       m_Calls:
-      - {m_Target: {fileID: 1087750405}, m_MethodName: DOPlay, m_Mode: 1, m_Arguments: {m_ObjectArgument: {fileID: 0}, m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, m_IntArgument: 0, m_FloatArgument: 0, m_StringArgument: , m_BoolArgument: 0}, m_CallState: 2}
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  onTweenCreated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  delay: 0
-  duration: 3
-  easeType: 6
-  easeCurve:
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  loops: 1
-  loopType: 0
-  orientType: 0
-  lookAtTransform: {fileID: 0}
-  lookAtPosition: {x: 0, y: 0, z: 0}
-  lookAhead: 0.01
-  autoPlay: 0
-  autoKill: 1
-  relative: 0
-  isLocal: 0
-  isClosedPath: 1
-  pathResolution: 10
-  pathMode: 1
-  lockRotation: 0
-  assignForwardAndUp: 0
-  forwardDirection: {x: 0, y: 0, z: 1}
-  upDirection: {x: 0, y: 1, z: 0}
-  wps:
-  - {x: 3.8321667, y: 6.9544535, z: 0}
-  - {x: -6.0542445, y: 9.465288, z: 0}
-  - {x: -12.069765, y: 6.1698112, z: 0}
-  - {x: -12.069786, y: -0.2641964, z: 0}
-  - {x: -6.368099, y: -4.187376, z: 0}
-  fullWps: []
-  path:
-    type: 1
-    subdivisionsXSegment: 10
-    subdivisions: 70
-    wps:
-    - {x: 4.45, y: -1.83, z: 0}
-    - {x: 3.8321667, y: 6.9544535, z: 0}
-    - {x: -6.0542445, y: 9.465288, z: 0}
-    - {x: -12.069765, y: 6.1698112, z: 0}
-    - {x: -12.069786, y: -0.2641964, z: 0}
-    - {x: -6.368099, y: -4.187376, z: 0}
-    - {x: 4.45, y: -1.83, z: 0}
-    controlPoints:
-    - a: {x: -6.368099, y: -4.187376, z: 0}
-      b: {x: 0, y: 0, z: 0}
-    - a: {x: 3.8321667, y: 6.9544535, z: 0}
-      b: {x: 0, y: 0, z: 0}
-    length: 52.02238
-    wpLengths:
-    - 0
-    - 9.359136
-    - 10.405018
-    - 7.102792
-    - 6.6672983
-    - 7.1915474
-    - 11.289525
-    isFinalized: 1
-    timesTable:
-    - 0.014285714
-    - 0.028571429
-    - 0.042857144
-    - 0.057142857
-    - 0.071428575
-    - 0.08571429
-    - 0.1
-    - 0.114285715
-    - 0.12857144
-    - 0.14285715
-    - 0.15714286
-    - 0.17142858
-    - 0.18571429
-    - 0.2
-    - 0.21428572
-    - 0.22857143
-    - 0.24285714
-    - 0.25714287
-    - 0.27142859
-    - 0.2857143
-    - 0.3
-    - 0.31428573
-    - 0.32857144
-    - 0.34285715
-    - 0.35714287
-    - 0.37142858
-    - 0.3857143
-    - 0.4
-    - 0.41428572
-    - 0.42857143
-    - 0.44285715
-    - 0.45714286
-    - 0.47142857
-    - 0.4857143
-    - 0.5
-    - 0.51428574
-    - 0.5285714
-    - 0.54285717
-    - 0.55714285
-    - 0.5714286
-    - 0.5857143
-    - 0.6
-    - 0.6142857
-    - 0.62857145
-    - 0.64285713
-    - 0.6571429
-    - 0.67142856
-    - 0.6857143
-    - 0.7
-    - 0.71428573
-    - 0.7285714
-    - 0.74285716
-    - 0.75714284
-    - 0.7714286
-    - 0.78571427
-    - 0.8
-    - 0.8142857
-    - 0.82857144
-    - 0.8428571
-    - 0.85714287
-    - 0.87142855
-    - 0.8857143
-    - 0.9
-    - 0.9142857
-    - 0.92857146
-    - 0.94285715
-    - 0.9571429
-    - 0.9714286
-    - 0.9857143
-    - 1
-    lengthsTable:
-    - 0.66792893
-    - 1.3899281
-    - 2.16896
-    - 2.9980419
-    - 3.8644814
-    - 4.752426
-    - 5.6444182
-    - 6.5224686
-    - 7.368998
-    - 8.167948
-    - 8.906464
-    - 9.58573
-    - 10.313842
-    - 11.125577
-    - 12.012393
-    - 12.959278
-    - 13.947668
-    - 14.956963
-    - 15.965341
-    - 16.950247
-    - 17.888689
-    - 18.75748
-    - 19.533484
-    - 20.220243
-    - 20.891918
-    - 21.555
-    - 22.208927
-    - 22.852415
-    - 23.483595
-    - 24.100157
-    - 24.699495
-    - 25.278862
-    - 25.83552
-    - 26.366951
-    - 26.8711
-    - 27.376375
-    - 27.912098
-    - 28.475262
-    - 29.060778
-    - 29.66227
-    - 30.272577
-    - 30.884148
-    - 31.48931
-    - 32.080574
-    - 32.650936
-    - 33.194313
-    - 33.709743
-    - 34.240025
-    - 34.79521
-    - 35.371506
-    - 35.965523
-    - 36.574467
-    - 37.19625
-    - 37.829685
-    - 38.474625
-    - 39.132145
-    - 39.804657
-    - 40.496033
-    - 41.23852
-    - 42.10978
-    - 43.088493
-    - 44.145332
-    - 45.25077
-    - 46.375446
-    - 47.49042
-    - 48.567577
-    - 49.58027
-    - 50.50447
-    - 51.32128
-    - 52.02238
-  inspectorMode: 0
-  pathType: 1
-  handlesType: 0
-  livePreview: 1
-  handlesDrawMode: 0
-  perspectiveHandleSize: 0.5
-  showIndexes: 1
-  pathColor:
-    r: 1
-    g: 1
-    b: 1
-    a: 0.5
-  lastSrcPosition: {x: 4.45, y: -1.83, z: 0}
-  wpsDropdown: 0
+      - {m_Target: {fileID: 1087750405}, m_MethodName: DOPlay, m_Mode: 1, m_Arguments: {m_ObjectArgument: {fileID: 0}, m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine: }}
 --- !u!33 &118309270
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -477,6 +245,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.45, y: -1.83, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -569,6 +338,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -30}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -601,6 +371,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1356883401}
   m_RootOrder: 0
@@ -683,6 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d49b7c1bcd2e07499844da127be038d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_ForceModuleActive: 0
 --- !u!114 &1053889440
 MonoBehaviour:
@@ -696,6 +468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -728,6 +501,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -1114,7 +888,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1154,6 +928,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.45, y: -1.83, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1186,6 +961,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1260203941}
   m_RootOrder: 1
@@ -1328,6 +1104,7 @@ Transform:
   m_LocalRotation: {x: 0.40821794, y: -0.23456973, z: 0.10938166, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1361,6 +1138,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1356883401}
   - {fileID: 1127963256}
@@ -1429,6 +1207,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -1462,6 +1241,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 970591914}
   m_Father: {fileID: 1260203941}
